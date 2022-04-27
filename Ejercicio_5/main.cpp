@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-#Ejercicio5
-
 int main(){
 
     int numero1;
