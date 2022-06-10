@@ -1,0 +1,2 @@
+
+                puntosTotales++;
