@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
     int identificadorContenedor = 0;
     float pesoContenedor = 0;
@@ -30,7 +31,6 @@ int main(){
         {
             contenedorMayorPeso = pesoContenedor;
             identificadorMayorPeso = identificadorContenedor;
-
         }
 
         if (puertoArribo == 1)
@@ -45,20 +45,13 @@ int main(){
         {
             contadorPuerto3++;
         }
-        
-        
-        
-
-
     }
 
     cout << "El peso total que el buque debe cargar es: " << pesoTotal << endl;
     cout << "El identificador del contenedor de mayor peso es: " << identificadorMayorPeso << " con " << contenedorMayorPeso << " kg" << endl;
-    cout << "Al puerto 1 van: " << contadorPuerto1 << " contenedores" << endl; 
-    cout << "Al puerto 2 van: " << contadorPuerto2 << " contenedores" << endl; 
-    cout << "Al puerto 3 van: " << contadorPuerto3 << " contenedores" << endl; 
-
-    
+    cout << "Al puerto 1 van: " << contadorPuerto1 << " contenedores" << endl;
+    cout << "Al puerto 2 van: " << contadorPuerto2 << " contenedores" << endl;
+    cout << "Al puerto 3 van: " << contadorPuerto3 << " contenedores" << endl;
 
     return 0;
-} 
+}
