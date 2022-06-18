@@ -7,6 +7,7 @@ int main()
     int sumaPromedio=0;
     int numero;
     int suma=0;
+    int contadorCien = 0;
 
     for (int i = 0; i < 50; i++)
     {
@@ -16,6 +17,7 @@ int main()
         if (numero > 100)
         {
             sumaPromedio = sumaPromedio + numero;
+            contadorCien++;
         }
 
         if (numero < -10)
@@ -27,7 +29,7 @@ int main()
         
     }
 
-    cout << "El promedio de los mayores que 100 es: " << sumaPromedio / 50 << endl;
+    cout << "El promedio de los mayores que 100 es: " << sumaPromedio / contadorCien << endl;
     cout << "La suma de los menores que -10 es: " << suma << endl;
     
 
