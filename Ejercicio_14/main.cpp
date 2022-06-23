@@ -9,7 +9,7 @@ int main()
     int suma=0;
     int contadorCien = 0;
 
-    for (int i = 0; i < 50; i++)
+    for (int i = 0; i < 5; i++)
     {
         cout << "Ingrese un numero " << endl;
         cin >> numero;
